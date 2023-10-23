@@ -1,0 +1,37 @@
+.fondo-adoptame {
+    background-image: url(../img/testimonios.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-adoptame {
+    text-align: center;
+    margin-bottom: 9px;
+    margin-top: 4px;
+    color: #ffff;
+    font-family: 'Russo One', sans-serif;
+}
+.pets {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pet {
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pet h3 , p {
+    color: #ffff;
+}
+.img-pet {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid darkgrey;
+}
+.img-pet:hover {
+    box-shadow: 5px 5px 10px #0036fa, -5px -5px 10px #f10000;
+}

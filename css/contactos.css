@@ -1,0 +1,165 @@
+.art-contenedor h2 {
+	align-content: center;	
+	padding-top: 15px;
+	font-family: 'Russo One', sans-serif;
+	font-weight: bold;
+	
+}
+.art-contenedor hr{
+	width: 30%;
+	border: 1px solid rgba(172,172,172,1.00);
+	margin: 5px auto;
+	
+}
+
+
+
+.art-contenedor {
+	padding: 20px;
+	align-items: center;
+	align-content: center;
+	height:700px;
+	background: #E3E3E3;
+	
+}
+
+.imagen{
+	padding-top: 15px;
+	width: 65%;
+	height: 500px;
+	float: left;
+
+}
+
+
+.img-cont {
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	height: 580px;
+}
+
+.form {
+	align-content: center;
+	margin-top: 26px;
+	width: 32%;
+	float: right;
+	padding: 10px;
+    border-radius: 6px;
+	box-shadow: 5px 5px 10px #0036fa, -5px -5px 10px #f10000;
+}
+
+
+.form h2 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.form h3 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.form p{
+	font-size: 13px;
+	color: black;
+}
+
+input[type="text"],input[type="email"],input[type="number"] {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	width: 100%;
+	height: 30px;
+	border-radius: 3px;
+	border: 0;
+	border: 1px solid #c30c0c;
+}
+
+textarea {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	 border: 0;
+	 border: 1px solid #c30c0c;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+input[name="envio"]{
+	width: 30%;
+	height: 35px;
+	background: #c30c0c;
+	border: 0;
+	border-radius: 12px;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+}
+
+
+input[name="envio"]:hover{
+	color:#fccb00;
+	background: #2E009F;
+	border:0;
+
+	
+}
+
+
+
+@media (max-width:991px){
+	
+	.art-contenedor{
+width: 100%;
+			height: 850px;
+		
+	
+		}
+
+		
+.imagen{
+	width: 100%;
+	height: 200px;
+	
+}
+.img-cont {
+    width: 100%;
+    height: 200px;
+}
+	
+.form {
+	align-content: center;
+	width: 100%;
+	
+}
+	
+	
+}
+@media only screen and (min-width:480px) and (max-width:780px){
+.img-cont {
+    width: 100%;
+    height: 200px;
+}
+	.form {
+	width: 100%;
+	height: 540px;
+	
+}
+
+	.imagen{
+	width: 100%;
+		height: 200px;
+	
+}
+	.art-contenedor{
+	width: 100%;
+	
+	}
+
+
+
+	}
